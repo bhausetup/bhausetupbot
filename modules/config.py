@@ -4,13 +4,13 @@ import aiohttp
 from os import getenv
 from dotenv import load_dotenv
 
-# 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 (@𝐁𝐢𝐤𝐚𝐬𝐡𝐇𝐚𝐥𝐝𝐞𝐫 @𝐀𝐝𝐢𝐭𝐲𝐚𝐇𝐚𝐥𝐝𝐞𝐫)
+# 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 (@𝗜_𝗟𝗢𝗩𝗘_𝗬𝗢𝗨_𝗠𝗬_𝗛𝗘𝗔𝗥𝗧𝗕𝗘𝗘𝗧 @𝗕𝗛𝗥𝗔𝗠𝗔𝗡_𝗔𝗡𝗦𝗛)
 load_dotenv()
 que = {}
 admins = {}
 aiohttpsession = aiohttp.ClientSession()
 
-# 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 //𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @𝐁𝐢𝐤𝐚𝐬𝐡𝐇𝐚𝐥𝐝𝐞𝐫 @𝐀𝐝𝐢𝐭𝐲𝐚𝐇𝐚𝐥𝐝𝐞𝐫
+# 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 //𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @𝗜_𝗟𝗢𝗩𝗘_𝗬𝗢𝗨_𝗠𝗬_𝗛𝗘𝗔𝗥𝗧𝗕𝗘𝗘𝗧 @𝗕𝗛𝗥𝗔𝗠𝗔𝗡_𝗔𝗡𝗦𝗛
 API_HASH = getenv("API_HASH", "XXXXX")
 API_ID = int(getenv("API_ID", "XXXXX"))
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "XXXXX")
@@ -20,7 +20,7 @@ BOT_NAME = getenv("BOT_NAME", "XXXXX")
 BOT_TOKEN = getenv("BOT_TOKEN", "12345:XXXXX")
 BOT_USERNAME = getenv("BOT_USERNAME", "XXXXX")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
-OWNER_NAME = getenv("OWNER_NAME", "𝐁𝐢𝐤𝐚𝐬𝐡 𝐇𝐚𝐥𝐝𝐞𝐫")
+OWNER_NAME = getenv("OWNER_NAME", "")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "BikashHalder")
 SOURCE_CODE = getenv("SOURCE_CODE", "https://github.com/BikashhalderNew/BGTMUSICBOT2")
 STRING_SESSION = getenv("STRING_SESSION", "session")
